@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<groups> <!--using for grouping tests -->
+		<run>
+			<!--<include name ="Sanity"/> -->
+			<!-- <include name ="Regression"/> -->
+			<include name="Master" />
+			<!-- <exclude name = ""/> -->
+		</run>
+
+	</groups>
+
+	<listeners>     <!-- using for generate  extent report -->
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+
+		<parameter name="os" value="Windows"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+
+		<classes>
+			<class name="testCases.Test_AccRegistrationPage" />
+			<class name="testCases.Test_LoginPage" />
+			<!--  <class name="testCases.Test_dataDriven_loginTest"/> -->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
