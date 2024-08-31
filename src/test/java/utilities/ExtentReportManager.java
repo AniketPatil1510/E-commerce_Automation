@@ -44,7 +44,7 @@ package utilities;
 
 			sparkReporter.config().setDocumentTitle("opencart Automation Test Report"); // Title of report
 			sparkReporter.config().setReportName("Functional Testing"); // name of the report
-			sparkReporter.config().setTheme(Theme.STANDARD);
+			sparkReporter.config().setTheme(Theme.DARK);
 			
 			extent = new ExtentReports();
 			extent.attachReporter(sparkReporter);
@@ -52,7 +52,6 @@ package utilities;
 			extent.setSystemInfo("Tester", "Aniket.A.Patil");
 			extent.setSystemInfo("QA Module", "E-commerce WebApp");
 			
-			extent.setSystemInfo("User Name", System.getProperty("user.name"));
 			extent.setSystemInfo("Environemnt", "QA");
 			
 			String os = testContext.getCurrentXmlTest().getParameter("os");

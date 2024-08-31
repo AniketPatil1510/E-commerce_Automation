@@ -11,13 +11,16 @@ import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
+
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -40,12 +43,11 @@ public Properties prop; //for loading config.properties file
 		  prop=new Properties();
 		  prop.load(Cfile);
 		
-		
-		
 		logg = LogManager.getLogger(this.getClass()); //generating log .. use log manger class predefined
 		//this is the only one statement for generate logs
 		
-		switch(br)
+		   
+	    switch(br)
 		{
 		case "chrome": driver = new ChromeDriver(); break;
 		case "edge": driver = new EdgeDriver(); break;

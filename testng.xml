@@ -22,9 +22,10 @@
 		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
-			<class name="testCases.Test_AccRegistrationPage" />
-			<class name="testCases.Test_LoginPage" />
+			 <class name="testCases.Test_AccRegistrationPage" />
+			 <class name="testCases.Test_LoginPage" /> 
 			<!--  <class name="testCases.Test_dataDriven_loginTest"/> -->
+			<class name="testCases.Test_SearchPageProduct"/>
 		</classes>
 	</test> <!--
 	Test -->

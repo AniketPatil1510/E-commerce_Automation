@@ -134,3 +134,59 @@
 12:16:53.587 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Finished Account Registration Test****
 12:16:56.977 PM[main] INFO  testCases.Test_LoginPage - **** Starting Login Test ****
 12:16:58.489 PM[main] INFO  testCases.Test_LoginPage - **** Finished Login Test ****
+06:53:52.172 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Starting Account Registration Test****
+06:53:52.315 PM[main] INFO  testCases.Test_AccRegistrationPage -  clicked on my account 
+06:53:53.078 PM[main] INFO  testCases.Test_AccRegistrationPage -   and clicked on register link 
+06:53:55.291 PM[main] INFO  testCases.Test_AccRegistrationPage - Provided all details of customer  and clicked continue
+06:53:55.352 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Finished Account Registration Test****
+06:54:00.442 PM[main] INFO  testCases.Test_LoginPage - **** Starting Login Test ****
+06:54:02.730 PM[main] INFO  testCases.Test_LoginPage - **** Finished Login Test ****
+07:21:12.894 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Starting Account Registration Test****
+07:21:13.286 PM[main] INFO  testCases.Test_AccRegistrationPage -  clicked on my account 
+07:21:14.049 PM[main] INFO  testCases.Test_AccRegistrationPage -   and clicked on register link 
+07:21:16.532 PM[main] INFO  testCases.Test_AccRegistrationPage - Provided all details of customer  and clicked continue
+07:21:16.637 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Finished Account Registration Test****
+07:21:22.274 PM[main] INFO  testCases.Test_LoginPage - **** Starting Login Test ****
+07:21:24.835 PM[main] INFO  testCases.Test_LoginPage - **** Finished Login Test ****
+07:27:16.394 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Starting Account Registration Test****
+07:27:16.892 PM[main] INFO  testCases.Test_AccRegistrationPage -  clicked on my account 
+07:27:17.717 PM[main] INFO  testCases.Test_AccRegistrationPage -   and clicked on register link 
+07:27:19.984 PM[main] INFO  testCases.Test_AccRegistrationPage - Provided all details of customer  and clicked continue
+07:27:20.101 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Finished Account Registration Test****
+07:27:25.803 PM[main] INFO  testCases.Test_LoginPage - **** Starting Login Test ****
+07:27:27.990 PM[main] INFO  testCases.Test_LoginPage - **** Finished Login Test ****
+07:32:37.374 PM[main] INFO  testCases.Test_SearchPageProduct -  Starting_SearchProductTest 
+07:32:38.537 PM[main] INFO  testCases.Test_SearchPageProduct -  Finshed SearchProductTest 
+07:33:14.667 PM[main] INFO  testCases.Test_SearchPageProduct -  Starting_SearchProductTest 
+07:33:15.784 PM[main] INFO  testCases.Test_SearchPageProduct -  Finshed SearchProductTest 
+07:34:06.192 PM[main] INFO  testCases.Test_LoginPage - **** Starting Login Test ****
+07:34:08.629 PM[main] INFO  testCases.Test_LoginPage - **** Finished Login Test ****
+07:34:13.664 PM[main] INFO  testCases.Test_SearchPageProduct -  Starting_SearchProductTest 
+07:34:14.600 PM[main] INFO  testCases.Test_SearchPageProduct -  Finshed SearchProductTest 
+07:35:04.132 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Starting Account Registration Test****
+07:35:04.589 PM[main] INFO  testCases.Test_AccRegistrationPage -  clicked on my account 
+07:35:05.684 PM[main] INFO  testCases.Test_AccRegistrationPage -   and clicked on register link 
+07:35:07.915 PM[main] INFO  testCases.Test_AccRegistrationPage - Provided all details of customer  and clicked continue
+07:35:08.037 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Finished Account Registration Test****
+07:35:13.259 PM[main] INFO  testCases.Test_LoginPage - **** Starting Login Test ****
+07:35:15.763 PM[main] INFO  testCases.Test_LoginPage - **** Finished Login Test ****
+07:35:20.945 PM[main] INFO  testCases.Test_SearchPageProduct -  Starting_SearchProductTest 
+07:35:21.937 PM[main] INFO  testCases.Test_SearchPageProduct -  Finshed SearchProductTest 
+07:37:50.163 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Starting Account Registration Test****
+07:37:50.591 PM[main] INFO  testCases.Test_AccRegistrationPage -  clicked on my account 
+07:37:51.505 PM[main] INFO  testCases.Test_AccRegistrationPage -   and clicked on register link 
+07:37:53.709 PM[main] INFO  testCases.Test_AccRegistrationPage - Provided all details of customer  and clicked continue
+07:37:53.804 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Finished Account Registration Test****
+07:37:59.021 PM[main] INFO  testCases.Test_LoginPage - **** Starting Login Test ****
+07:38:01.597 PM[main] INFO  testCases.Test_LoginPage - **** Finished Login Test ****
+07:38:07.126 PM[main] INFO  testCases.Test_SearchPageProduct -  Starting_SearchProductTest 
+07:38:08.258 PM[main] INFO  testCases.Test_SearchPageProduct -  Finshed SearchProductTest 
+07:41:36.580 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Starting Account Registration Test****
+07:41:37.118 PM[main] INFO  testCases.Test_AccRegistrationPage -  clicked on my account 
+07:41:37.929 PM[main] INFO  testCases.Test_AccRegistrationPage -   and clicked on register link 
+07:41:40.469 PM[main] INFO  testCases.Test_AccRegistrationPage - Provided all details of customer  and clicked continue
+07:41:40.546 PM[main] INFO  testCases.Test_AccRegistrationPage - ****Finished Account Registration Test****
+07:41:46.383 PM[main] INFO  testCases.Test_LoginPage - **** Starting Login Test ****
+07:41:50.117 PM[main] INFO  testCases.Test_LoginPage - **** Finished Login Test ****
+07:41:56.285 PM[main] INFO  testCases.Test_SearchPageProduct -  Starting_SearchProductTest 
+07:41:57.349 PM[main] INFO  testCases.Test_SearchPageProduct -  Finshed SearchProductTest 
