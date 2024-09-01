@@ -25,9 +25,7 @@ package utilities;
 
     import testCases.BaseClass;
 
-	
-
-	public class ExtentReportManager implements ITestListener {
+	    public class ExtentReportManager implements ITestListener {
 		public ExtentSparkReporter sparkReporter;
 		public ExtentReports extent;
 		public ExtentTest test;
@@ -43,7 +41,7 @@ package utilities;
 			sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
 
 			sparkReporter.config().setDocumentTitle("opencart Automation Test Report"); // Title of report
-			sparkReporter.config().setReportName("Functional Testing"); // name of the report
+			sparkReporter.config().setReportName("Functional Testing By Aniket.P"); // name of the report
 			sparkReporter.config().setTheme(Theme.DARK);
 			
 			extent = new ExtentReports();

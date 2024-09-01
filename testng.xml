@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> 
 <suite name="Suite">
 
 	<groups> <!--using for grouping tests -->
@@ -22,10 +22,11 @@
 		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
-			 <class name="testCases.Test_AccRegistrationPage" />
-			 <class name="testCases.Test_LoginPage" /> 
+			<class name="testCases.Test_AccRegistrationPage" />
+			<class name="testCases.Test_LoginPage" /> 
 			<!--  <class name="testCases.Test_dataDriven_loginTest"/> -->
 			<class name="testCases.Test_SearchPageProduct"/>
+			<class name="testCases.Test_AddCart"/>
 		</classes>
 	</test> <!--
 	Test -->

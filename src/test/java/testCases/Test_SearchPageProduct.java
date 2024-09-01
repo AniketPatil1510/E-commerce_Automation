@@ -17,11 +17,12 @@ public class Test_SearchPageProduct extends BaseClass{
 			HomePage hp=new HomePage(driver);
 			
 			
-			hp.enterProductName("mac");
+			hp.enterProductName("mac"); //enter product name to search mac
 			
 			hp.clickSearchbtn();
 			
 			SearchPage sp=new SearchPage(driver);
+	
 			sp.isProductExist("MacBook");
 
 			Assert.assertEquals(sp.isProductExist("MacBook"),true);
